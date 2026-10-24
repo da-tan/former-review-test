@@ -1,0 +1,19 @@
+{
+  "name": "former-review-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "如果前任匿名评价你：TA最不甘心失去什么？",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "codes:generate": "node scripts/generate-codes.js",
+    "codes:supabase": "node scripts/generate-supabase-codes.js"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1"
+  },
+  "devDependencies": {
+    "@supabase/cli-windows-x64": "^2.122.0"
+  }
+}

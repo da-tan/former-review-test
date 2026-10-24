@@ -1,0 +1,4 @@
+project_id = "former-review-test"
+
+[functions.assessment]
+verify_jwt = false
